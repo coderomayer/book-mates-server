@@ -8,6 +8,8 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
+// User and password
+
 const uri = "mongodb+srv://omayer:mx8iqTtgwCPVB4N1@cluster0.ussu9py.mongodb.net/?retryWrites=true&w=majority";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
